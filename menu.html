@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM INPUT DATA</title>
+	<style type="text/css">
+		.link{
+			margin: 250px auto;
+			width: 400px;
+			padding: 10px;
+			background: #5e7561;
+		}
+		.login{
+			margin: 250px auto;
+			width: 400px;
+			padding: 10px;
+			background: #5e7561;
+		}
+		input[type=text], input[type=dname]{
+			margin: 10px;
+			width: 100%;
+			padding: 10px;
+		}
+		input[type=text], input[type=aname]{
+			margin: 10px auto;
+			width: 90%;
+			padding: 10px;
+		}
+		input[type=submit]{
+			margin: 5px auto;
+			float: right;
+			padding: 5px;
+			width: 90px;
+			border: 2px solid#fff;
+			cursor: pointer;
+		}
+		input[input=reset]{
+			margin: 5px auto;
+			float: right;
+			padding: 5px;
+			width: 90px;
+			border: 2px solid#fff;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body background="tentara.jpg">
+<div class="login">
+	<table border="2" width="100%">
+		<td bgcolor="#2f4f4f">
+			<li><a href="input biodata.html"><font color="#FFE4B5">Input Biodata</font></a></li><br>
+			<li><a href="input pendaftaran.html"><font color="#FFE4B5">Input pendaftaran</font></a></li><br>
+		</td>
+		<td>
+			<h1 align="center"><font color="#FFE4B5">Form Input Data</font>
+				<a href="lihat.php">::Lihat Daftar::</a></h1>
+
+			<form action="/action_page.php">
+				<label for="fname"><font color="#FFEFD5">Nama : </font></label>
+				<input type="text" id="dname" name="dname"><br><br>
+
+				<label for="lname"><font color="#FFEFD5">Alamat : </font></label>
+				<input type="text" id="aname" name="aname"><br><br>
+
+				<label for="fname"><font color="#FFEFD5">Agama : </font></label>
+				<input type="text" id="daddress" name="daddress"><br><br>
+
+				<label for="klmn"><font color="#FFEFD5">Jenis Kelamin : </font></label>
+				<input type="text" id="kelamin" name="kelamin"><br>
+
+				<input type="submit" value="Simpan">
+				<input type="reset" value="Batal">
+			</td>
+			</form>
+		</table>
+	</div>
+</body>
+</html>
